@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 body {
@@ -20,4 +20,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
+  @media screen and (min-width: 768px) {
+    padding: 0 4rem;
+  }
 }
