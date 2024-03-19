@@ -42,6 +42,7 @@ body {
   position: sticky;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 h1.headline {
@@ -107,6 +108,8 @@ a {
 a:hover {
   /* color:#e8e5e480; */
   color: #7f7f7f;
+
+
 }
 
 .batch {
@@ -117,9 +120,12 @@ a:hover {
 
 .batchnav {
   display: flex;
+  position: sticky;
+  top: 0;
   justify-content: center;
   list-style: none;
   background-color: white;
+
   border-radius: 50px;
   color: #000000;
   gap: 0.3rem;
@@ -131,6 +137,11 @@ a:hover {
   place-content: center flex-start;
   align-items: center;
   flex: 0 0 auto;
+
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+
 }
 
 .batch1 {
@@ -168,4 +179,33 @@ a:hover {
 }
 .batch4:hover {
   background-color: white;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 30px;
+  /* align-items: center; */
+  text-align: center;
+  border: 2px solid black;
+  /* margin: 0 auto; */
+  padding: 40px;
+  justify-content: center;
+}
+
+#cta_h2 {
+  /* align-items: center; */
+
+  color: #000000;
+}
+
+a {
+  /* color:#7f7f7f ;  */
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+a:hover {
+  /* color:#e8e5e480; */
+  color: #7f7f7f;
 }
