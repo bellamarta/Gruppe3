@@ -1,3 +1,16 @@
+h1.headline {
+}
+
+h1.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 75px 25px 75px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +38,47 @@ body {
   }
 }
 
+.header {
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 75px 25px 75px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  height: 70vh;
+}
+
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #f4f2f0;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.list-item {
+  padding: 20px 40px;
+}
 .cta {
   display: flex;
   flex-direction: column;
@@ -55,34 +109,63 @@ a:hover {
   color: #7f7f7f;
 }
 
-h1.headline {
+.batch {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 25px 75px 25px 75px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
+  font-size: xx-small;
 }
 
-.nav {
+.batchnav {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  list-style: none;
   background-color: white;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50px;
+  color: #000000;
+  gap: 0.3rem;
+  white-space: pre-wrap;
+  width: min-content;
+  height: min-content;
+  padding: 0p;
+  position: relative;
+  place-content: center flex-start;
+  align-items: center;
+  flex: 0 0 auto;
 }
 
-.navlist {
+.batch1 {
   display: flex;
   justify-content: space-between;
-  list-style: none;
   background-color: #f4f2f0;
-  padding: 20px;
   border-radius: 50px;
 }
-
-.list-item {
-  padding: 20px 40px;
+.batch2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f2f0;
+  border-radius: 50px;
+}
+.batch3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f2f0;
+  border-radius: 50px;
+}
+.batch4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f2f0;
+  border-radius: 50px;
+}
+.batch1:hover {
+  background-color: white;
+}
+.batch2:hover {
+  background-color: white;
+}
+.batch3:hover {
+  background-color: white;
+}
+.batch4:hover {
+  background-color: white;
 }
