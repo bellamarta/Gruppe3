@@ -1,3 +1,35 @@
+
+.cta{
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 30px;
+  /* align-items: center; */
+  text-align: center;
+  border: 2px solid black;
+  /* margin: 0 auto; */
+  padding : 40px;
+  justify-content: center;
+}
+
+#cta_h2{
+  /* align-items: center; */
+ 
+ color: #000000;
+}
+
+a{
+  /* color:#7f7f7f ;  */
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  /* color:#e8e5e480; */
+  color: #7f7f7f;
+}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -19,3 +51,4 @@
 .list-item {
   padding: 20px 40px;
 }
+
