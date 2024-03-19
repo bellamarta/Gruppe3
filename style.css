@@ -1,3 +1,4 @@
+
 .cta{
   display: flex;
   flex-direction: column;
@@ -28,3 +29,26 @@ a:hover {
   /* color:#e8e5e480; */
   color: #7f7f7f;
 }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #f4f2f0;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.list-item {
+  padding: 20px 40px;
+}
+
